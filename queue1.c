@@ -26,7 +26,7 @@ void display(){
     }
     else{
         printf("Queue is: ");
-        for(int i=0; i<=rear; i++){
+        for(int i=front; i<=rear; i++){
             printf("%d ",arr[i]);
         }
     }
